@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    color: aquamarine;
+}
+
+
+.zindua .top {
+    text-align: center;
+    color: blueviolet;
+}
+
+.zindua .intro p {
+    color: brown;
+    text-align: center;
+}
+
+#navbar {
+    color: blue;
+    background-color: blueviolet;
+    list-style: none;
+
+    #navbar ul li a {
+        color: black;
+    }
+
+
+    #navbar ul {
+        list-style: none;
+    }
+    
+
+    .zindua .a[target="_blank"]:hover{
+        color: black;
+        background-color:blueviolet;
+    }
