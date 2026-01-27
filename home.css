@@ -1,38 +1,198 @@
-h2{
-    font-size: 90px;
-    font-family: 'Times New Roman', Times, serif;
+h2 {
+    color: red;
+    /* text-align: justify;
+    text-align-last: right; */
+    /* direction: rtl; */
+    text-indent: 40px;
+    letter-spacing: 3px;
+    /* word-spacing: 18px; */
+    white-space: nowrap;
+    /* text-decoration: underline; */
+    /* text-decoration-line: underline;
+    text-decoration-style: dashed;
+    text-decoration-color: green; */
+    text-shadow: 2px 2px 5px blue;
+    font-size: 80px;
 }
 
-.unit-cm{
+.unit-mm {
+    font-size: 5mm;
+    color: #ff0000;
+}
+
+.unit-cm {
     font-size: 1cm;
-    color: #e33936;
+    color: #f00;
+
 }
 
-
-.unit-in{
+.unit-inch {
     font-size: 0.5in;
-    color:hsla(hue, saturation, lightness, alpha)
+    color: rgb(255, 0, 0);
 }
 
-body{
-    background-image: url(Assets/e27db5676f7997d4d36a54542bfde9bc.jpg);
+.unit-quarter {
+    font-size: 40Q;
+    color: rgba(255, 0, 0, 0.2);
+}
+
+.unit-em {
+    font-size: 2em;
+    color: hsl(120, 100%, 50%);
+}
+
+.unit-rem {
+    font-size: 1.5rem;
+}
+
+.unit-vw {
+    font-size: 5vw;
+}
+
+.unit-vh {
+    font-size: 5vh;
+}
+
+.unit-percent {
+    font-size: 150%;
+}
+
+* {
+    /* background-image: url('assets/snowman-24856_128.gif');
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: cover; */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/* body {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
+
+.small {
+    font-size: small;
+}
+
+.medium {
+    font-size: medium;
+}
+
+.larger {
+    font-size: larger;
+}
+
+.px {
+    font-size: 18px;
+}
+
+.percent {
+    font-size: 125%;
+}
+
+
+.normal {
+    font-weight: normal;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.lighter {
+    font-weight: lighter;
+}
+
+.number {
+    font-weight: 700;
+}
+
+.images .img1 {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.images .img2 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.images .img3 {
+    border: 2px solid red;
+    border-radius: 10px;
+    border: 7px solid black;
+    width: 200px;
+    height: 200px;
+}
+
+.images .img4 {
+    width: auto;
+    height: 150px;
+    margin: 10px;
+    filter: blur(3px);
+}
+
+.images .img5 {
+    width: auto;
+    height: 150px;
+    margin: 10px;
+    filter: invert(110%);
+}
+
+.images .img6 {
+    width: auto;
+    height: 150px;
+    margin: 10px;
+    filter: saturate(8);
+}
+
+.images .img7 {
+    width: auto;
+    height: 150px;
+    margin: 10px;
+    filter: sepia(110%);
+}
+
+.images1 {
+    width: 200px;
+    height: 200px;
+    box-shadow: 0 3px 6px 0 grey, 0 8px 16px 0 black;
+    margin-bottom: 30px;
+    margin: 20px;
+    border-radius: 10px;
+
+}
+
+.images1 .img8 {
+    width: 100%;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.box {
+    text-align: center;
+    padding: 5px;
     
 }
 
-.image .image1{
-    width: 200px;
-    height: 200px;
-    border-radius: 20%;
-   }
 
-.image .image2{
-    border: 2px solid black;
-    width: 200px;
-    height: 200px;
-    border-radius: 20%;
-    filter: blur(px);
+.images2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    border: 2px solid green;
 }
 
+.images2 .img9 {
+    max-width: 300px;
+    height: auto;
+    border: 1px solid;
+}
