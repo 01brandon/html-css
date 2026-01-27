@@ -1,0 +1,38 @@
+h2{
+    font-size: 90px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.unit-cm{
+    font-size: 1cm;
+    color: #e33936;
+}
+
+
+.unit-in{
+    font-size: 0.5in;
+    color:hsla(hue, saturation, lightness, alpha)
+}
+
+body{
+    background-image: url(Assets/e27db5676f7997d4d36a54542bfde9bc.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.image .image1{
+    width: 200px;
+    height: 200px;
+    border-radius: 20%;
+   }
+
+.image .image2{
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+    border-radius: 20%;
+    filter: blur(px);
+}
+
